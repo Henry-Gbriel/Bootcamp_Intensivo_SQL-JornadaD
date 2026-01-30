@@ -110,7 +110,8 @@ ORDER BY total_encomendado;
 
 
 -- 6. Cria um relatório que mostra o total de pedidos por cliente desde 31 de dezembro de 1996.
--- O relatório deve retornar apenas linhas para as quais o total de pedidos é maior que 15 (5 linhas)
+-- O relatório dev
+e retornar apenas linhas para as quais o total de pedidos é maior que 15 (5 linhas)
 select * from customers; --- customer_id, company_name 
 select*from orders; ---- order_id, customer_id, order_date 
 
